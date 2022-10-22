@@ -6,7 +6,7 @@
  *positive_or_negative - Entry point
  *@i: The character to be checked.
  *
- *Return: Always 0 (Success)
+ *Return: Always void
  */
 
 void positive_or_negative(int i)
@@ -22,7 +22,5 @@ void positive_or_negative(int i)
 	else if (i < 0)
 	{
 		printf("%i is negative\n", i);
-	}
-
-	return (0);
+	};
 }
